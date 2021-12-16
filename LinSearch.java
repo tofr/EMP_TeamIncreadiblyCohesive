@@ -1,8 +1,12 @@
-
-   
-/**
- * class LinSearch
- **/
+/*
+Team Incredibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
+APCS pd7
+L03: Get Empirical
+2021-12-16
+time spent: .6 hrs
+DISCO:
+QCC:
+ */
 
 public class LinSearch {
 
