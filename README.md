@@ -1,2 +1,1 @@
-# EMP_TeamIncreadiblyCohesive
-(David Chen, Jaylen Zeng, Orion Roven)
+# Team Increadibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
