@@ -1,10 +1,10 @@
 public class SearchDriver {
   public static void main(String[] args) {
     SearchDriver driver = new SearchDriver();
-    Comparable[] arr = fillArray(10000000);
+    Comparable[] arr = fillArray(100000000);
     Comparable[] arr2 = fillArray(1000);
     driver.testBinSearch(arr, 2);
-    driver.testLinSearch(arr, 4);
+    driver.testLinSearch(arr, 4000000);
   }
 
   // test how fast linear search is
