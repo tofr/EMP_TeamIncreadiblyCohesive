@@ -2,7 +2,12 @@ Team Incredibly Cohesive (Orion, David C , Jaylen)
 
 0. Array of Comparables initialized and filled with Comparable objects. Each item in the array will correspond with its index. For example, the first item of the array will be 0.
 1. Record starting time with currentTimeMillis before beginning test. Value stored in a variable.
-2. Run LinSearch and BinSearch. Preferably search for value corresponding to higher index rather than one of the first few indices. (If you want to find the value at index 50, just tell LinSearch/BinSearch to find 50.)
-3. Immediately after running LinSearch (or BinSearch), run currentTimeMillis and record its value to a different variable. 
-4. Repeat steps 2 and 3 but with the other Search method. (If LinSearch first, run BinSearch)
-  -Record currentTimeMillis value 
+2. Run LinSearch (or BinSearch) Preferably search for value corresponding to higher index rather than one of the first few indices. (If you want to find the value at index 50, just tell LinSearch/BinSearch to find 50.)
+3. Immediately after running LinSearch (or BinSearch), run currentTimeMillis and record its value to a different variable.
+4. Find the difference between your two variables and print it. This is the time it took for said search method to find the value (in milliseconds, could convert to different measurement).
+5. Repeat steps 1-4 but with the other Search method. (If LinSearch first, run BinSearch)
+  -Be sure to update your starting time variable.
+6. Compare
+
+(We are thinking of increasing the size of our dataset after each test and also searching for indexes at varying locations.)
+
