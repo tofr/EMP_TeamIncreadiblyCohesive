@@ -1,1 +1,3 @@
-Team Incredibly Cohesive (Orion, David C., Jaylen)
+For SearchDriver, in order to track the amount of time that it took for our
+program to run, we decided to set long _start = System.currentTimeMillis() which
+returns the amount of time in milliseconds it has been since January 1st, 1970.
