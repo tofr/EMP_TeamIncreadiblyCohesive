@@ -1,3 +1,4 @@
 DISCO:
-
+*You don't have to import anything in order to use currentTimeMillis
 QCC:
+*What exactly is a Comparable and why do we need to use them in LinSearch/BinSearch?
