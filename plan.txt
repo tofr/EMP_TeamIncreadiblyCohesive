@@ -1,1 +1,6 @@
-Team Incredibly Cohesive (Orion, David C., Jaylen)
+Team Incredibly Cohesive (Orion, David C , Jaylen)
+
+0. Array of Comparables initialized and filled with Comparable objects. Each item in the array will correspond with its index. For example, the first item of the array will be 0.
+1. Record starting time with currentTimeMillis before beginning test. Value stored in a variable.
+2. Run LinSearch and BinSearch. If you want to search 
+
