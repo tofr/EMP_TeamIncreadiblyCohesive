@@ -1,2 +1,7 @@
 16-12-2021
+
 added BinSearch and LinSearch
+
+read currentTimeMillis() description in library/resources
+
+added steps 0-6 of plan.txt
