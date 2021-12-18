@@ -1,7 +1,10 @@
 16-12-2021
 
-added BinSearch and LinSearch
+*added BinSearch and LinSearch
+*read currentTimeMillis() description in library/resources
+*added steps 0-6 of plan.txt
 
-read currentTimeMillis() description in library/resources
+17-12-2021
 
-added steps 0-6 of plan.txt
+*we tested BinSearch and LinSearch with a dataset if length 100000000
+*On average, we found that LinSearch took a significantly longer time in milliseconds to find the target
