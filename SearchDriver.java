@@ -23,11 +23,12 @@ public class SearchDriver {
         for (int i = 0; i < tests.length; i++) {
             Comparable[] arr = tests[i];
             int bestCase = (0 + arr.length - 1) / 2;
+            int worstCase = arr.length + 1;
             SOP("\n");
             SOP("-----------------Testing array of size " + arr.length + "-----------------");
             for (int j = 0; j < driver.trials; j++) {
                 driver.binaryBest += driver.testBinSearch(arr, bestCase);
-                driver.binaryWorst += driver.testBinSearch(arr, 0);
+                driver.binaryWorst += driver.testBinSearch(arr, worstCase);
                 driver.binaryRegular += driver.testBinSearch(arr, arr.length / 8);
 
                 driver.linearBest += driver.testLinSearch(arr, 0);
