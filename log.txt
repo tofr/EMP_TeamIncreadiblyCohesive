@@ -6,7 +6,7 @@
 
 17-12-2021
 
-*we tested BinSearch and LinSearch with a dataset if length 100000000
+*tested BinSearch and LinSearch with a dataset if length 100000000
 *On average, we found that LinSearch took a significantly longer time in milliseconds to find the target
 
 18-12-2021
@@ -48,3 +48,7 @@ Worst case: 0.0 ms
 ----Linear Search----
 Best case: 0.0 ms
 Worst case: 40.928 ms
+
+19-12-2021
+
+* Orion - updated notes for System.currentTimeMillis
