@@ -14,7 +14,9 @@ public class SearchDriver {
                 fillArray(10000),
                 fillArray(100_000),
                 fillArray(1_000_000),
+                fillArray(5_000_000),
                 fillArray(10_000_000),
+                fillArray(25_000_000),
                 fillArray(50_000_000),
                 fillArray(100_000_000),
                 fillArray(200_000_000),
@@ -75,7 +77,7 @@ public class SearchDriver {
     public static Comparable[] fillArray(int size) {
         Comparable[] arr = new Comparable[size];
         for (int i = 0; i < size; i++) {
-            arr[i] = i;
+            arr[i] = i * 10;
         }
         return arr;
     }

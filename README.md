@@ -29,4 +29,17 @@ For an array of size 200,000,000, it took binary search at most 0.002 while line
 ## Conclusions
 The speed for both binary search and linear search did not differ by much for the smaller-sized arrays. But for larger sized data sets, binary search is definitely the better option by demonstrating a significant speed boost.
 
+The execution time for linear search also increases linearly, proving the concept of **Time Complexity** $$O(N)$$
+The table below shows this correlation. 
+
+| Array Length| Time in ms|
+| ----------- | --------- |
+| 5000000     | 1.017     |
+| 10000000    | 2.019     |
+| 25000000    | 5.016     |
+| 50000000    | 10.206    |
+| 100000000   | 20.016    |
+| 200000000   | 40.051    |
+
+
 Note: The above results obtained with an AMD Ryzen 5800X.
