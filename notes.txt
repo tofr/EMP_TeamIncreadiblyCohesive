@@ -1,5 +1,5 @@
 DISCO:
-*You don't have to import anything in order to use currentTimeMillis
+* You don't have to import anything in order to use currentTimeMillis
 * The reason that it takes longer to run than to search is because we need to fill the array first which would take more time
 QCC:
-*What exactly is a Comparable and why do we need to use them in LinSearch/BinSearch?
+ 

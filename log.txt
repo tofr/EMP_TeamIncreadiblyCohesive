@@ -12,3 +12,31 @@
 18-12-2021
 * David - Refactored test to use 2d arrays
 * David - Added methodology section to README
+* David - Added multiple trials and average time for each test case
+
+
+-----------------Testing array of size 10000000-----------------
+----Binary Search----
+Best case: 0.0 ms
+Worst case: 0.0 ms
+Regular case: 0.0 ms
+
+
+----Linear Search----
+Best case: 0.0 ms
+Worst case: 2.0 ms
+Regular case: 2.2 ms
+
+
+
+-----------------Testing array of size 100000000-----------------
+----Binary Search----
+Best case: 0.0 ms
+Worst case: 0.2 ms
+Regular case: 0.0 ms
+
+
+----Linear Search----
+Best case: 0.0 ms
+Worst case: 22.8 ms
+Regular case: 21.6 ms
