@@ -1,12 +1,12 @@
 public class SearchDriver {
-    int binaryBest = 0;
-    int binaryWorst = 0;
-    int binaryRegular = 0;
+    private int binaryBest = 0;
+    private int binaryWorst = 0;
+    private int binaryRegular = 0;
 
-    int linearBest = 0;
-    int linearWorst = 0;
-    int linearRegular = 0;
-    int trials = 5;
+    private int linearBest = 0;
+    private int linearWorst = 0;
+    private int linearRegular = 0;
+    private static int trials = 1000;
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
         // use 2d array to store the test cases
@@ -26,7 +26,7 @@ public class SearchDriver {
             int worstCase = arr.length + 1;
             SOP("\n");
             SOP("-----------------Testing array of size " + arr.length + "-----------------");
-            for (int j = 0; j < driver.trials; j++) {
+            for (int j = 0; j < trials; j++) {
                 driver.binaryBest += driver.testBinSearch(arr, bestCase);
                 driver.binaryWorst += driver.testBinSearch(arr, worstCase);
                 // driver.binaryRegular += driver.testBinSearch(arr, arr.length / 8);
@@ -54,7 +54,7 @@ public class SearchDriver {
     }
 
     public static float calculateAvg(int sum) {
-        return (float) sum / 5;
+        return (float) sum / trials;
     }
 
     // test how fast linear search is
