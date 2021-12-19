@@ -1,10 +1,7 @@
 public class SearchDriver {
-    private int binaryBest = 0;
-    private int binaryWorst = 0;
-
-    private int linearBest = 0;
-    private int linearWorst = 0;
     private static int trials = 1000;
+    private long binaryBest, binaryWorst, linearBest, linearWorst = 0;
+    
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
         // use 2d array to store the test cases
@@ -22,18 +19,17 @@ public class SearchDriver {
                 fillArray(200_000_000),
         };
 
-        for (int i = 0; i < tests.length; i++) {
-            Comparable[] arr = tests[i];
-            int bestCase = (0 + arr.length - 1) / 2;
-            int worstCase = arr.length + 1;
+        for (Comparable[] test : tests) {
+            int bestCase = (0 + test.length - 1) / 2;
+            int worstCase = test.length + 1;
             SOP("\n");
-            SOP("-----------------Testing array of size " + arr.length + "-----------------");
+            SOP("-----------------Testing array of length " + test.length + "-----------------");
             for (int j = 0; j < trials; j++) {
-                driver.binaryBest += driver.testBinSearch(arr, bestCase);
-                driver.binaryWorst += driver.testBinSearch(arr, worstCase);
+                driver.binaryBest += driver.testBinSearch(test, bestCase);
+                driver.binaryWorst += driver.testBinSearch(test, worstCase);
 
-                driver.linearBest += driver.testLinSearch(arr, 0);
-                driver.linearWorst += driver.testLinSearch(arr, arr.length);
+                driver.linearBest += driver.testLinSearch(test, 0);
+                driver.linearWorst += driver.testLinSearch(test, test.length);
             }
 
             SOP("----Binary Search----");
@@ -46,13 +42,11 @@ public class SearchDriver {
             print("Worst case: " + calculateAvg(driver.linearWorst) + " ms \n");
             
             driver.reset();
-            if (i < tests.length - 1) {
-                SOP("");
-            }
+            SOP("");
         }
     }
 
-    public static float calculateAvg(int sum) {
+    public static float calculateAvg(long sum) {
         return (float) sum / trials;
     }
 
