@@ -15,6 +15,7 @@ public class SearchDriver {
                 fillArray(100_000),
                 fillArray(1_000_000),
                 fillArray(10_000_000),
+                fillArray(50_000_000),
                 fillArray(100_000_000),
                 fillArray(200_000_000),
         };
