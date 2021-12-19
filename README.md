@@ -43,4 +43,4 @@ The table below shows this correlation.
 | 200000000   | 40.051    |
 
 
-Note: The above results obtained with an AMD Ryzen 5800X.
+Note: The above results obtained with an AMD Ryzen 5800X. Results may vary with other systems.
