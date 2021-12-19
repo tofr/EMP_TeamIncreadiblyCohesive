@@ -12,11 +12,11 @@ public class SearchDriver {
                 fillArray(100),
                 fillArray(1000),
                 fillArray(10000),
-                fillArray(100000),
-                fillArray(1000000),
-                fillArray(10000000),
-                fillArray(100000000),
-                fillArray(200000000),
+                fillArray(100_000),
+                fillArray(1_000_000),
+                fillArray(10_000_000),
+                fillArray(100_000_000),
+                fillArray(200_000_000),
         };
 
         for (int i = 0; i < tests.length; i++) {
