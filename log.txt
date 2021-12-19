@@ -8,3 +8,7 @@
 
 *we tested BinSearch and LinSearch with a dataset if length 100000000
 *On average, we found that LinSearch took a significantly longer time in milliseconds to find the target
+
+18-12-2021
+* David - Refactored test to use 2d arrays
+* David - Added methodology section to README
