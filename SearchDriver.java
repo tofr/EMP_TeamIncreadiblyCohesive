@@ -18,6 +18,7 @@ public class SearchDriver {
                 fillArray(1000000),
                 fillArray(10000000),
                 fillArray(100000000),
+                fillArray(200000000),
         };
 
         for (int i = 0; i < tests.length; i++) {

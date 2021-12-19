@@ -22,6 +22,9 @@ The results were obtain from averages from 1000 trials.
 
 From arrays of size 10 to 100000, the times were negligible at 0ms. As the size of the arrays got larger, the execution times began to increase too. For an array size of 1 million, binary search took 0 ms while linear search took 0.158 ms. For an array size of 10,000,000, it took linear search 1.965 ms and took binary search 0.0 ms.
 
-The most noticeable difference was for an array size of 100,000,000. The worst case for binary search took 0.001 ms, while the worst case for linear search took 19.908 ms. 
-## Conclusions
+A noticeable difference was observed for an array size of 100,000,000. The worst case for binary search took 0.001 ms, while the worst case for linear search took 19.908 ms. 
+For an array of size 200,000,000, it took binary search at most 0.002 while linear search took 40.947 ms.
+
 The speed for both binary search and linear search did not differ by much for the smaller-sized arrays. But for larger sized data sets, binary search is definitely the better option by demonstrating a significant speed boost.
+
+Note: The above results obtained with an AMD Ryzen 5800X.
