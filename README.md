@@ -22,7 +22,7 @@ The results were obtain from averages from 1000 trials.
 
 From arrays of size 10 to 100000, the times were negligible at 0ms. As the size of the arrays got larger, the execution times began to increase too. For an array size of 1 million, binary search took 0 ms while linear search took 0.158 ms. For an array size of 10,000,000, it took linear search 1.965 ms and took binary search 0.0 ms.
 
-A noticeable difference was observed for an array size of 100,000,000. The worst case for binary search took 0.001 ms, while the worst case for linear search took 19.908 ms. 
+A noticeable difference was observed for an array size of 100,000,000. The worst case for binary search took 0.001 ms, while the worst case for linear search took 19.908 ms.
 For an array of size 200,000,000, it took binary search at most 0.002 while linear search took 40.947 ms.
 
 
@@ -31,16 +31,16 @@ The speed for both binary search and linear search did not differ by much for th
 
 The execution time for linear search also increases linearly, proving the concept of **Time Complexity** **O(N)**
 
-The table below shows this correlation. 
+The table below shows this correlation.
 
-| Array Length| Time in ms|
-| ----------- | --------- |
-| 5000000     | 1.017     |
-| 10000000    | 2.019     |
-| 25000000    | 5.016     |
-| 50000000    | 10.206    |
-| 100000000   | 20.016    |
-| 200000000   | 40.051    |
+| Array Length| Time in ms for LinSearch| Time in ms for BinSearch|
+| ----------- | ---------               | ---------               |
+| 5000000     | 1.017                   | 0                       |
+| 10000000    | 2.019                   | 0                       |
+| 25000000    | 5.016                   | 0                       |
+| 50000000    | 10.206                  | 0                       |
+| 100000000   | 20.016                  | 1                       |
+| 200000000   | 40.051                  | 1                       |
 
 
 Note: The above results obtained with an AMD Ryzen 5800X. Results may vary with other systems.
