@@ -10,4 +10,3 @@ Team Incredibly Cohesive (Orion, David C , Jaylen)
 6. Compare
 
 (We are thinking of increasing the size of our dataset after each test and also searching for indexes at varying locations.)
-
