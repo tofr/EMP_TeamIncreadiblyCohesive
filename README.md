@@ -39,12 +39,12 @@ The table below shows this correlation.
 
 | Array Length| Time in ms for LinSearch| Time in ms for BinSearch|
 | ----------- | ---------               | ---------               |
-| 5000000     | 1.017                   | 0                       |
-| 10000000    | 2.019                   | 0                       |
-| 25000000    | 5.016                   | 0                       |
-| 50000000    | 10.206                  | 0                       |
-| 100000000   | 20.016                  | 1                       |
-| 200000000   | 40.051                  | 1                       |
+| 5000000     | 1.017                   | 0.0                     |
+| 10000000    | 2.019                   | 0.0                     |
+| 25000000    | 5.016                   | 0.0                     |
+| 50000000    | 10.206                  | 0.0                     |
+| 100000000   | 20.016                  | 0.0                     |
+| 200000000   | 40.051                  | 0.0                     |
 
 
 Note: The above results obtained with an AMD Ryzen 5800X. Results may vary with other systems.
