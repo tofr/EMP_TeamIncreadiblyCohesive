@@ -1,12 +1,7 @@
 public class SearchDriver {
     private static int trials = 1000;
-<<<<<<< HEAD
-    private long binaryBest, binaryWorst, linearBest, linearWorst = 0;
-
-=======
     private long binaryWorst, linearWorst;
-    
->>>>>>> 762c166b35c29d7de4bf1924109c19a7daa8346f
+
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
         // use 2d array to store the test cases
