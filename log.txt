@@ -1,3 +1,6 @@
+Team Incredibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
+APCS pd8
+L03: Get Empirical
 16-12-2021
 
 *added BinSearch and LinSearch
