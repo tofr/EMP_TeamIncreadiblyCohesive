@@ -7,8 +7,7 @@
 </div>
 
 ## Methodology
-  * Test the best case and worst case for each method
-    * The best case for linear search is first element and the best case for binary is the element at median index
+  * Test the worst case for each method
     * The worst case for for linear search is the last element and the worst case for binary is if the element is not in the array
   * We used a 2d array to store all the test cases
     * We then iterate over the 2d array to test
