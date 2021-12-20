@@ -19,7 +19,7 @@
   * Pserb and Co recommended us to incorporate repetition in our experiment.
     * We decided to create multiple datasets of various lengths from 100 to 200_000_000.
     * Since some of our machines lacked the required memory, we decided not to test the arrays of larger lengths in order to achieve compilability.
-
+  * We used a for loop to iterate through each of our arrays, testing both the   bestCase and worstCase. After every array is tested, we find the average of our results.
 
 ## Results
 The results were obtain from averages from 1000 trials.
