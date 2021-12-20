@@ -12,7 +12,7 @@
   * We used a 2d array to store all the test cases
     * We then iterate over the 2d array to test
   * Utilized instance vars to store ms for each of the trials
-    * After the 5 trials for each array, the time taken was averaged and displayed
+    * After 1000 trials for each array, the time taken was averaged and displayed
     * Instance vars would then be reset following each iteration of the main loop
 
 
