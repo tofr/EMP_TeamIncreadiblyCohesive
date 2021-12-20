@@ -15,6 +15,11 @@
     * After 1000 trials for each array, the time taken was averaged and displayed
     * Instance vars would then be reset following each iteration of the main loop
 
+#Tests Performed
+  * Pserb and Co recommended us to incorporate repetition in our experiment.
+    * We decided to create multiple datasets of various lengths from 100 to 200_000_000.
+    * Since some of our machines lacked the required memory, we decided not to test the arrays of larger lengths in order to achieve compilability. 
+
 
 ## Results
 The results were obtain from averages from 1000 trials.
