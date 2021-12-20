@@ -1,7 +1,7 @@
 public class SearchDriver {
     private static int trials = 1000;
     private long binaryBest, binaryWorst, linearBest, linearWorst = 0;
-    
+
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
         // use 2d array to store the test cases
@@ -14,9 +14,9 @@ public class SearchDriver {
                 fillArray(5_000_000),
                 fillArray(10_000_000),
                 fillArray(25_000_000),
-                fillArray(50_000_000),
-                fillArray(100_000_000),
-                fillArray(200_000_000),
+                // fillArray(50_000_000),
+                // fillArray(100_000_000),
+                // fillArray(200_000_000),
         };
 
         for (Comparable[] test : tests) {
@@ -40,7 +40,7 @@ public class SearchDriver {
             SOP("----Linear Search----");
             print("Best case: " + calculateAvg(driver.linearBest) + " ms \n");
             print("Worst case: " + calculateAvg(driver.linearWorst) + " ms \n");
-            
+
             driver.reset();
             SOP("");
         }
