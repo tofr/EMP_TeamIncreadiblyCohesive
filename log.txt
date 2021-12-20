@@ -52,3 +52,7 @@ Worst case: 40.928 ms
 19-12-2021
 
 * Orion - updated notes for System.currentTimeMillis
+
+20-12-2021
+
+* Orion - updated notes for conclusions relative to the length of the dataset

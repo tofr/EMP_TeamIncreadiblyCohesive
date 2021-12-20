@@ -12,6 +12,6 @@ DISCO:
 * You don't have to import anything in order to use currentTimeMillis. We used System.currentTimeMillis because it is part of the System class.
 * The reason that it takes longer to run than to search is because we need to fill the array first which would take more time
 * An array size of over 1_000_000_000 would run out of memory
-QCC: 
+* If the dataset is bigger, BinSearch will take significantly less time to find the target than LinSearch, so it is reasonable to conclude that relative to the dataset, binary search is faster than linear search.
+QCC:
 * How can we test an array of over 1_000_000_000
- 
