@@ -1,3 +1,15 @@
+/*
+Team Incredibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
+APCS pd8
+L03: Get Empirical
+2021-12-20
+time spent: 1 hrs
+DISCO:
+n/a
+QCC:
+n/a
+ */
+
 DISCO:
 * You don't have to import anything in order to use currentTimeMillis. We used System.currentTimeMillis because it is part of the System class.
 * The reason that it takes longer to run than to search is because we need to fill the array first which would take more time
