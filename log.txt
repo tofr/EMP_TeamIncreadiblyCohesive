@@ -67,3 +67,4 @@ Worst case: 40.928 ms
 * Orion - learned about time complexity and big O notation
 * A linear algorithm, that iterates through a 1-D array has time complexity O(N)
 * An algorithm with a nested for loop, possibly to loop through a 2-D array, has time complexity O(N^2)
+* Jaylen - updated README.md for gallery view
