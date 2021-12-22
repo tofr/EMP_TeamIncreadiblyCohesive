@@ -40,7 +40,7 @@ The table below shows this correlation.
 | Array Length| Time in ms for LinSearch| Time in ms for BinSearch|
 | ----------- | ---------               | ---------               |
 | 5000000     | 1.017                   | 0.0                     |
-| 10000000    | 2.019                   | 0.0                     |
+| 10000000    | 2.019                   | 0.001                   |
 | 25000000    | 5.016                   | 0.0                     |
 | 50000000    | 10.206                  | 0.0                     |
 | 100000000   | 20.016                  | 0.0                     |
