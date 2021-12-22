@@ -1,6 +1,6 @@
 public class SearchDriver {
     private static int trials = 1000;
-    private long binaryBest, binaryWorst, linearBest, linearWorst = 0;
+    private long binaryBest, binaryWorst, linearBest, linearWorst;
     
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
