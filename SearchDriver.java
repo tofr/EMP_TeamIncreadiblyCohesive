@@ -1,7 +1,6 @@
 public class SearchDriver {
     private static int trials = 1000;
-    private long binaryBest, binaryWorst, linearBest, linearWorst;
-    
+        private long binaryWorst, linearWorst;
     public static void main(String[] args) {
         SearchDriver driver = new SearchDriver();
         // use 2d array to store the test cases
@@ -14,33 +13,28 @@ public class SearchDriver {
                 fillArray(5_000_000),
                 fillArray(10_000_000),
                 fillArray(25_000_000),
-                fillArray(50_000_000),
-                fillArray(100_000_000),
-                fillArray(200_000_000),
+                // fillArray(50_000_000),
+                // fillArray(100_000_000),
+                // fillArray(200_000_000),
         };
 
         for (Comparable[] test : tests) {
-            int bestCase = (0 + test.length - 1) / 2;
             int worstCase = test.length + 1;
             SOP("\n");
             SOP("-----------------Testing array of length " + test.length + "-----------------");
             for (int j = 0; j < trials; j++) {
-                driver.binaryBest += driver.testBinSearch(test, bestCase);
                 driver.binaryWorst += driver.testBinSearch(test, worstCase);
 
-                driver.linearBest += driver.testLinSearch(test, 0);
                 driver.linearWorst += driver.testLinSearch(test, test.length);
             }
 
             SOP("----Binary Search----");
-            print("Best case: " + calculateAvg(driver.binaryBest) + " ms \n");
             print("Worst case: " + calculateAvg(driver.binaryWorst) + " ms \n");
 
             SOP("\n");
             SOP("----Linear Search----");
-            print("Best case: " + calculateAvg(driver.linearBest) + " ms \n");
             print("Worst case: " + calculateAvg(driver.linearWorst) + " ms \n");
-            
+
             driver.reset();
             SOP("");
         }
@@ -85,10 +79,8 @@ public class SearchDriver {
     }
 
     public void reset() {
-        binaryBest = 0;
         binaryWorst = 0;
 
-        linearBest = 0;
         linearWorst = 0;
     }
 }

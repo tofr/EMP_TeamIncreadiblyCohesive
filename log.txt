@@ -1,3 +1,6 @@
+Team Incredibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
+APCS pd8
+L03: Get Empirical
 16-12-2021
 
 *added BinSearch and LinSearch
@@ -52,3 +55,16 @@ Worst case: 40.928 ms
 19-12-2021
 
 * Orion - updated notes for System.currentTimeMillis
+
+20-12-2021
+
+* Orion - updated notes for conclusions relative to the length of the dataset
+* Jaylen - updated notes further detailing Tests Performed
+
+21-12-2021
+
+* Orion, Jaylen - went to CS dojo, incorporated notes for gallery walkthrough
+* Orion - learned about time complexity and big O notation
+* A linear algorithm, that iterates through a 1-D array has time complexity O(N)
+* An algorithm with a nested for loop, possibly to loop through a 2-D array, has time complexity O(N^2)
+* Jaylen - updated README.md for gallery view
