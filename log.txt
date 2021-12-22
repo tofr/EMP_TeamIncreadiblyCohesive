@@ -16,7 +16,8 @@ L03: Get Empirical
 * David - Refactored test to use 2d arrays
 * David - Added methodology section to README
 * David - Added multiple trials and average time for each test case
-
+* David - Added conclusions and results to README
+    - Related to Big O and time complexity
 
 -----------------Testing array of size 50000000-----------------
 ----Binary Search----
@@ -68,3 +69,84 @@ Worst case: 40.928 ms
 * A linear algorithm, that iterates through a 1-D array has time complexity O(N)
 * An algorithm with a nested for loop, possibly to loop through a 2-D array, has time complexity O(N^2)
 * Jaylen - updated README.md for gallery view
+
+-----------------Testing array of length 100-----------------
+----Binary Search----
+Worst case: 0.002 ms
+
+
+----Linear Search----
+Worst case: 0.0 ms
+
+
+
+-----------------Testing array of length 1000-----------------
+----Binary Search----
+Worst case: 0.001 ms
+
+
+----Linear Search----
+Worst case: 0.0 ms
+
+
+
+-----------------Testing array of length 10000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.003 ms
+
+
+
+-----------------Testing array of length 100000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.016 ms
+
+
+
+-----------------Testing array of length 1000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.151 ms
+
+
+
+-----------------Testing array of length 5000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.76 ms
+
+
+
+-----------------Testing array of length 10000000-----------------
+----Binary Search----
+Worst case: 0.001 ms
+
+
+----Linear Search----
+Worst case: 1.797 ms
+
+
+
+-----------------Testing array of length 25000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 4.679 ms
+
+22-12-2021
+* David - update results
