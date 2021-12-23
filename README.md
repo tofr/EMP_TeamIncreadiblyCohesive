@@ -6,8 +6,52 @@
   <h1> David Chen, Jaylen Zeng, Orion Roven <h1>
 </div>
 
+## Methodology
+  * Test the worst case for each method
+    * The worst case for for linear search is the last element and the worst case for binary is if the element is not in the array
+  * We used a 2d array to store all the test cases
+    * We then iterate over the 2d array to test
+  * Utilized instance vars to store ms for each of the trials
+    * After 1000 trials for each array, the time taken was averaged and displayed
+    * Instance vars would then be reset following each iteration of the main loop
+
+## Tests Performed
+  * Pserb and Co recommended us to incorporate repetition in our experiment.
+    * We decided to create multiple datasets of various lengths from 100 to 200_000_000.
+    * Since some of our machines lacked the required memory, we decided not to test the arrays of larger lengths in order to achieve compilability.
+  * We used a for loop to iterate through each of our arrays, testing both the   bestCase and worstCase. After every array is tested, we find the average of our results.
+
 ## Results
-For an array of length 10, our results were inconsistent and there were barely any differences between BinSearch and linSearch.
-However, for an array of length 10000000, the difference between the two search methods was much more distinguishable. (BinSearch completed the task in 1 ms as opposed to LinSearch's 8ms)
+The results were obtain from averages from 1000 trials.
+
+From arrays of size 10 to 100000, the times were negligible at 0ms. As the size of the arrays got larger, the execution times began to increase too. For an array size of 1 million, binary search took 0 ms while linear search took 0.158 ms. For an array size of 10,000,000, it took linear search 1.965 ms and took binary search 0.0 ms.
+
+A noticeable difference was observed for an array size of 100,000,000. The worst case for binary search took 0.001 ms, while the worst case for linear search took 19.908 ms.
+For an array of size 200,000,000, it took binary search at most 0.002 while linear search took 40.947 ms.
+
+
 ## Conclusions
-For larger sized data sets, binary search is definitely the better option. 
+The speed for both binary search and linear search did not differ by much for the smaller-sized arrays. But for larger sized data sets, binary search is definitely the better option by demonstrating a significant speed boost.
+
+The execution time for linear search also increases linearly, proving the concept of **Time Complexity** **O(N)**
+
+The table below shows this correlation.
+
+| Array Length| Time in ms for LinSearch| Time in ms for BinSearch|
+| ----------- | ---------               | ---------               |
+| 5000000     | 1.017                   | 0.0                     |
+| 10000000    | 2.019                   | 0.001                   |
+| 25000000    | 5.016                   | 0.0                     |
+| 50000000    | 10.206                  | 0.0                     |
+| 100000000   | 20.016                  | 0.0                     |
+| 200000000   | 40.051                  | 0.0                     |
+
+
+Note: The above results obtained with an AMD Ryzen 5800X. Results may vary with other systems.
+Note: Our machines in room 251 don't have enough memory to create large enough arrays, so we commented out some test cases
+
+## Gallery Tour
+  * A major problem in this lab is that Binary Search will consistently return 0ms which is not very helpful. Many groups found a work-around.
+    * Pserbco found out that by repeating their tests at least 1000 times, they can collect reasonable data.
+    * Compile-Time-Errors decided that it was more effective to compare the relative times rather than the actual time. Basically, they kept iterating binSearch until the time elapsed was a non-zero number. After storing the number of iterations, they multiplied this value by the time elapsed using linSearch. Supposedly, this method was endorsed by Mr.Mykolyk himself.
+  * Team BPK had a cool approach. They created a 2D array consisting of small arrays with a length of 2. The first index would be the time it took binSearch to complete the task while the second index was for linSearch. When they wanted to conduct their tests, they simply created a while loop to run BinSearch and LinSearch the specified amount of times (determined through a variable called numTests).

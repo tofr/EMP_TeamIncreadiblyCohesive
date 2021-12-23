@@ -1,7 +1,152 @@
+Team Incredibly Cohesive (David Chen, Jaylen Zeng, Orion Roven)
+APCS pd8
+L03: Get Empirical
 16-12-2021
 
-added BinSearch and LinSearch
+*added BinSearch and LinSearch
+*read currentTimeMillis() description in library/resources
+*added steps 0-6 of plan.txt
 
-read currentTimeMillis() description in library/resources
+17-12-2021
 
-added steps 0-6 of plan.txt
+*tested BinSearch and LinSearch with a dataset if length 100000000
+*On average, we found that LinSearch took a significantly longer time in milliseconds to find the target
+
+18-12-2021
+* David - Refactored test to use 2d arrays
+* David - Added methodology section to README
+* David - Added multiple trials and average time for each test case
+* David - Added conclusions and results to README
+    - Related to Big O and time complexity
+
+-----------------Testing array of size 50000000-----------------
+----Binary Search----
+Best case: 0.001 ms
+Worst case: 0.001 ms
+
+
+----Linear Search----
+Best case: 0.0 ms
+Worst case: 10.18 ms
+
+
+
+-----------------Testing array of size 100000000-----------------
+----Binary Search----
+Best case: 0.002 ms
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Best case: 0.0 ms
+Worst case: 20.154 ms
+
+
+
+-----------------Testing array of size 200000000-----------------
+----Binary Search----
+Best case: 0.0 ms
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Best case: 0.0 ms
+Worst case: 40.928 ms
+
+19-12-2021
+
+* Orion - updated notes for System.currentTimeMillis
+
+20-12-2021
+
+* Orion - updated notes for conclusions relative to the length of the dataset
+* Jaylen - updated notes further detailing Tests Performed
+
+21-12-2021
+
+* Orion, Jaylen - went to CS dojo, incorporated notes for gallery walkthrough
+* Orion - learned about time complexity and big O notation
+* A linear algorithm, that iterates through a 1-D array has time complexity O(N)
+* An algorithm with a nested for loop, possibly to loop through a 2-D array, has time complexity O(N^2)
+* Jaylen - updated README.md for gallery view
+
+-----------------Testing array of length 100-----------------
+----Binary Search----
+Worst case: 0.002 ms
+
+
+----Linear Search----
+Worst case: 0.0 ms
+
+
+
+-----------------Testing array of length 1000-----------------
+----Binary Search----
+Worst case: 0.001 ms
+
+
+----Linear Search----
+Worst case: 0.0 ms
+
+
+
+-----------------Testing array of length 10000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.003 ms
+
+
+
+-----------------Testing array of length 100000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.016 ms
+
+
+
+-----------------Testing array of length 1000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.151 ms
+
+
+
+-----------------Testing array of length 5000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 0.76 ms
+
+
+
+-----------------Testing array of length 10000000-----------------
+----Binary Search----
+Worst case: 0.001 ms
+
+
+----Linear Search----
+Worst case: 1.797 ms
+
+
+
+-----------------Testing array of length 25000000-----------------
+----Binary Search----
+Worst case: 0.0 ms
+
+
+----Linear Search----
+Worst case: 4.679 ms
+
+22-12-2021
+* David - update results
